@@ -198,61 +198,61 @@ def delete():
     if del_arr < len(my_arr) and del_arr >= 0:
 
         if del_arr == 0:
-            my_arr.remove(8)
+            my_arr.pop(0)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 1:
-            my_arr.remove(18)
+            my_arr.pop(1)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 2:
-            my_arr.remove(3)
+            my_arr.pop(2)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 3:
-            my_arr.remove(12)
+            my_arr.pop(3)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 4:
-            my_arr.remove(86)
+            my_arr.pop(4)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 5:
-            my_arr.remove(31)
+            my_arr.pop(5)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 6:
-            my_arr.remove(20)
+            my_arr.pop(6)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 7:
-            my_arr.remove(7)
+            my_arr.pop(7)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 8:
-            my_arr.remove(29)
+            my_arr.pop(8)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
 
         elif del_arr == 9:
-            my_arr.remove(36)
+            my_arr.pop(9)
             print("\nThe element has been deleted!\n",
                   enha * 65, "\nNew array of the day: ", my_arr, "\n",
                   enha * 65)
